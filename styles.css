@@ -1,9 +1,4 @@
 /*  your css code here. If applicable */
-.*{
-	margin:0;
-
-	box-sizing:border-box;
-}
 
 .container{
 	
@@ -14,12 +9,9 @@
 	grid-template-columns:repeat(4,1fr);
 	color:white;
 	font-size:4vw;
-	 gap:5px; 
-	
 }
 .box{
 	background-color:green;
-	padding:5px;
 }
 .first{
 	grid-column:1/5;
