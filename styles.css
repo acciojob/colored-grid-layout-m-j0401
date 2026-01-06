@@ -3,7 +3,7 @@
 #grid{
 	display:grid;
 	height:100vh;
-	grid-template-rows:repeat(5,1fr);
+	grid-template-rows:repeat(5,132px);
 	grid-template-columns:repeat(4,1fr);
 	grid-template-areas:"first first first first"
 	                     "sec third fourth fourth"
@@ -15,9 +15,9 @@
 	
 	
 }
-.box{
+.auto{
 	background-color:green;
-	margin:2px;
+	margin:1px;
 }
 .first{
    grid-area:first;
