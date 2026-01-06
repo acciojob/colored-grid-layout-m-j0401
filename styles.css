@@ -1,17 +1,18 @@
 /*  your css code here. If applicable */
 
-.container{
+body{
 	
 	display:grid;
-	/* height:500px;
-	width:600px; */
 	grid-template-rows:repeat(5,1fr);
 	grid-template-columns:repeat(4,1fr);
 	color:white;
 	font-size:4vw;
+	
+	
 }
 .box{
 	background-color:green;
+	margin:1px;
 }
 .first{
 	grid-column:1/5;
