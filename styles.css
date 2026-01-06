@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 
-.holder{
+#grid{
 	display:grid;
 	height:100vh;
 	grid-template-rows:repeat(5,1fr);
